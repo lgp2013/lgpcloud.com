@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh-cn" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Admin</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='js/angular/angular-growl.css') }}">
+    <script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/console-sham.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/bootstrap.js') }}"></script>
+</head>
+<body ng-app="MonitorApp" ui-view style="">
+<script src="{{ url_for('static', filename='js/angular/angular.js') }}"></script>
+<script src="{{ url_for('static', filename='js/angular/angular-animate.js') }}"></script>
+<script src="{{ url_for('static', filename='js/angular/angular-growl.js') }}"></script>
+<script src="{{ url_for('static', filename='js/angular/ng-table.js') }}"></script>
+<script src="{{ url_for('static', filename='js/angular/angular-ui-router.js') }}"></script>
+<script src="{{ url_for('static', filename='js/angular/ui-bootstrap-tpls.min.js') }}"></script>
+
+<script src="{{ url_for('static', filename='pages/app.js') }}"></script>
+<script src="{{ url_for('static', filename='pages/login.js') }}"></script>
+</body>
+</html>
